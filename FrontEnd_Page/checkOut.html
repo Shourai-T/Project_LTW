@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Đặt Hàng</title>
+    <link rel="stylesheet" href="/FrontEnd_Page/assets/css/styles.css">
+    <link rel="stylesheet" href="/FrontEnd_Page/assets/icon/themify-icons/themify-icons.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="#"><img src="/FrontEnd_Page/assets/image/logo.png" alt="Logo"></a>
+        </div>
+<!-- Header button -->
+        <div class="header-btn">
+            <a href="#" class="heart-icon ti-heart"></a>
+            <a href="#" class="bag-icon ti-bag"></a>
+        </div>
+    </header>
+
+    <main class="main-checkout">
+        <div class="checkout-container">
+            <div class="customer-info">
+                <h2>How would you like to get your order?</h2>
+                <div class="delivery-method">
+                    <input type="radio" id="deliver" name="delivery" value="deliver" checked>
+                    <label for="deliver">Deliver It</label>
+                </div>
+                <h2>Enter your name and address:</h2>
+                <form class="address-form">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="text" placeholder="Phone Number" required>
+                    <input type="text" placeholder="Start typing a street address or postcode" required>
+                </form>
+                <button>
+                    Confirm
+                </button>
+            </div>
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-details">
+                    <div>Subtotal <span>5,898,000đ</span></div>
+                    <div>Delivery/Shipping <span>Free</span></div>
+                    <div class="total">Total <span>5,898,000đ</span></div>
+                </div>
+                <h3>Arrives Sun, Jul 28 - Fri, Aug 2</h3>
+                <div class="product-list">
+                    <div class="product-item">
+                        <img src="https://via.placeholder.com/100" alt="Product Image">
+                        <div>
+                            <p>Nike Precision 7 Men's Basketball Shoes</p>
+                            <p>Qty 1</p>
+                            <p>Size EU 46</p>
+                            <p>2,069,000đ</p>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://via.placeholder.com/100" alt="Product Image">
+                        <div>
+                            <p>Sabrina 2 'Conductor' EP Basketball Shoes</p>
+                            <p>Qty 1</p>
+                            <p>Size EU 37.5</p>
+                            <p>3,829,000đ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/FrontEnd_Page/assets/javascript/script.js"></script>
+</body>
+</html>
