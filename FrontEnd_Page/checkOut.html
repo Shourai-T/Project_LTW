@@ -12,7 +12,7 @@
     <!-- Header -->
     <header id="header">
         <div class="logo">
-            <a href="#"><img src="/FrontEnd_Page/assets/image/logo.png" alt="Logo"></a>
+            <a href="index.html"><img src="/FrontEnd_Page/assets/image/logo.png" alt="Logo"></a>
         </div>
 <!-- Header button -->
         <div class="header-btn">
@@ -36,7 +36,7 @@
                     <input type="text" placeholder="Phone Number" required>
                     <input type="text" placeholder="Start typing a street address or postcode" required>
                 </form>
-                <button>
+                <button id="confirmBtn">
                     Confirm
                 </button>
             </div>
@@ -71,6 +71,18 @@
             </div>
         </div>
     </main>
+    
+    <!-- Pop Up -->
+
+    <div id="orderPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p>Your order has been placed successfully!</p>
+            <a href="/FrontEnd_Page/index.html" class="btn-home">Return to Home</a>
+        </div>
+    </div>  
+
     <script src="/FrontEnd_Page/assets/javascript/script.js"></script>
 </body>
+
 </html>
